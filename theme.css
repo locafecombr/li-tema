@@ -272,7 +272,7 @@ body,
 .titulo{
     font-family:var(--titleFontFamily);
 }
-/* TÃTULO DA LISTAGEM */
+/* TÍTULO DA LISTAGEM */
 .titulo-categoria strong,
 .listagem h4.titulo{
     font-family:var(--titleFontFamily);
@@ -338,7 +338,7 @@ textarea:focus{
     border-color:var(--primaryColor);
 }
 
-/* BOTÃ•ES */
+/* BOTÕES */
 .botao,
 .botao:hover,
 .btn,
@@ -416,7 +416,7 @@ textarea:focus{
 }
 #theme_header_1 .menu.superior > ul > li > a{padding:15px 0;}
 
-/* SEÃ‡ÃƒO BANNERS */
+/* SEÇÃO BANNERS */
 .secao-banners .conteiner{
     max-width: 100%;
     padding:0;
@@ -485,7 +485,7 @@ textarea:focus{
 .listagem-item.indisponivel, .listagem.com-caixa .listagem-item.indisponivel{background:transparent;}
 .listagem-item.indisponivel .info-produto .nome-produto{opacity:1;}
 .listagem-item.indisponivel .info-produto:after{
-    content: "IndisponÃ­vel";
+    content: "Indisponível";
     display: block;
     font-weight: var(--productPriceStrikeFontWeight);
     font-size: var(--productPriceStrikeFontSize);
@@ -1709,7 +1709,7 @@ body #rodape .gateways-rodape{
 .formas .accordion-group:hover, .formas .accordion-group.active,
 .formas .accordion-group{background:#f8f8f8;}
 
-/* CORREÃ‡Ã•ES FINAIS */
+/* CORREÇÕES FINAIS */
 #formularioLogin .control-group input,
 .input-append input,
 .input-append input[type="tel"],
