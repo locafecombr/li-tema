@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=optional');
+
 :root{
     /* INVERT HEADER */
     --invertHeaderBackground:#000;
@@ -16,46 +17,46 @@
     --primaryColor: #000000;
     --secondaryColor: #666;
     --buttonColor: #000;
-    --bodyFontFamily: "Poppins";
+    --bodyFontFamily: "DM Sans", sans-serif;
     --bodyFontWeight: 400;
     --bodyFontSize: 12px;
     
     /* TITLES */
-    --titleFontFamily: "Poppins";
+    --titleFontFamily: "DM Sans", sans-serif;
     --titleFontWeight: 600;
     --titleFontSize: 24px;
     --titleFontTransform: uppercase;
     --titleFontColor: #000;
 
     /* MENU */
-    --menuFontFamily: "Poppins";
+    --menuFontFamily: "DM Sans", sans-serif;
     --menuFontWeight: 400;
     --menuFontSize: 14px;
     --menuFontTransform: normal;
     --menuFontColor: #000;
 
     /* FOOTER */
-    --footerFontFamily: "Poppins";
+    --footerFontFamily: "DM Sans", sans-serif;
     --footerFontWeight: 400;
     --footerFontSize: 14px;
     --footerFontTransform: normal;
     --footerFontColor: #878787;
 
     /* FOOTER TITLES */
-    --footerTitleFontFamily: "Poppins";
+    --footerTitleFontFamily: "DM Sans", sans-serif;
     --footerTitleFontWeight: 600;
     --footerTitleFontSize: 18px;
     --footerTitleFontTransform: normal;
     --footerTitleFontColor: #000;
 
     /* PRODUCT LISTING */
-    --productFontFamily: "Poppins";
+    --productFontFamily: "DM Sans", sans-serif;
     --productFontWeight: 500;
     --productFontSize: 14px;
     --productFontColor: #000;
 
     
-    --productPriceFontFamily: "Poppins";
+    --productPriceFontFamily: "DM Sans", sans-serif;
     --productPriceFontWeight: 400;
     --productPriceFontSize: 14px;
     --productPriceColor:#000;
