@@ -14,7 +14,7 @@
     --borderRadius: 30px;
 
     /* PRIMARY */
-    --primaryColor: #000000;
+    --primaryColor: #1d1d1f;
     --secondaryColor: #666;
     --buttonColor: #000;
     --bodyFontFamily: "Roboto", system-ui;
@@ -31,9 +31,9 @@
     /* MENU */
     --menuFontFamily: "Roboto", system-ui;
     --menuFontWeight: 400;
-    --menuFontSize: 13px;
+    --menuFontSize: 14px;
     --menuFontTransform: normal;
-    --menuFontColor: #515154;
+    --menuFontColor: #1d1d1f;
 
     /* FOOTER */
     --footerFontFamily: "Roboto", system-ui;
@@ -53,7 +53,7 @@
     --productFontFamily: "Roboto", system-ui;
     --productFontWeight: 400;
     --productFontSize: 14px;
-    --productFontColor: #515154;
+    --productFontColor: #1d1d1f;
 
     
     --productPriceFontFamily: "Roboto", system-ui;
