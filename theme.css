@@ -166,6 +166,7 @@ body,
     box-shadow:unset;
     border:0;
     padding:0;
+    -webkit-font-smoothing: antialiased;
 }
 
 .conteiner-principal .conteiner{
