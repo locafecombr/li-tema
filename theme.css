@@ -1327,8 +1327,8 @@ body #rodape .gateways-rodape{
     line-height: 24px;
 }
 .abas-custom .tab-pane *{
-    font-size: 13px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 18px;
 }
 .codigo-produto *{color: var(--titleFontColor)!important;}
 
