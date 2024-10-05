@@ -19,7 +19,7 @@
     --buttonColor: #000;
     --bodyFontFamily: "Roboto", system-ui;
     --bodyFontWeight: 300;
-    --bodyFontSize: 11px;
+    --bodyFontSize: 13px;
     
     /* TITLES */
     --titleFontFamily: "Roboto", system-ui;
@@ -209,7 +209,12 @@ body,
 }
 .logo a img{max-height:var(--logoDesktop);height:70px;}
 .logo a img,
-.logo a{position:relative;height:auto;}
+.logo a{
+    position:relative;
+    height:auto;
+    max-width: 11em;
+    margin: 0 1em;
+}
 
 .align-items-center {
     -webkit-align-items: center !important;
@@ -416,13 +421,14 @@ textarea:focus{
 #theme_header_1{
     padding:0px 7.5px;
 }
-#theme_header_1 .menu.superior > ul > li > a{padding:15px 0;}
+#theme_header_1 .menu.superior > ul > li > a{padding:10px 0;}
 
 /* SEÇÃO BANNERS */
 .secao-banners .conteiner{
     max-width: 100%;
     padding:0;
     overflow:hidden;
+    margin-top: -71px;
 }
 .secao-banners .conteiner .row-fluid{}
 .secao-banners .conteiner .mini-banner,
@@ -2928,7 +2934,7 @@ html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parc
     .menu.superior li.com-filho .nivel-dois > .com-filho > a{font-weight:600;}
 }
 
-#theme_header-stripe{text-align:center;padding:.5rem;}
+#theme_header-stripe{text-align:center;padding:.25rem;}
 
 #theme_filter-clean{
     background: var(--primaryColor);
