@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=optional');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 :root{
     /* INVERT HEADER */
@@ -14,59 +14,59 @@
     --borderRadius: 30px;
 
     /* PRIMARY */
-    --primaryColor: #000000;
+    --primaryColor: #1d1d1f;
     --secondaryColor: #666;
     --buttonColor: #000;
-    --bodyFontFamily: "DM Sans", sans-serif;
-    --bodyFontWeight: 400;
-    --bodyFontSize: 12px;
+    --bodyFontFamily: "Roboto", system-ui;
+    --bodyFontWeight: 300;
+    --bodyFontSize: 11px;
     
     /* TITLES */
-    --titleFontFamily: "DM Sans", sans-serif;
-    --titleFontWeight: 600;
-    --titleFontSize: 24px;
+    --titleFontFamily: "Roboto", system-ui;
+    --titleFontWeight: 500;
+    --titleFontSize: 20px;
     --titleFontTransform: uppercase;
     --titleFontColor: #000;
 
     /* MENU */
-    --menuFontFamily: "DM Sans", sans-serif;
+    --menuFontFamily: "Roboto", system-ui;
     --menuFontWeight: 400;
     --menuFontSize: 14px;
     --menuFontTransform: normal;
-    --menuFontColor: #000;
+    --menuFontColor: #1d1d1f;
 
     /* FOOTER */
-    --footerFontFamily: "DM Sans", sans-serif;
+    --footerFontFamily: "Roboto", system-ui;
     --footerFontWeight: 400;
-    --footerFontSize: 14px;
+    --footerFontSize: 12px;
     --footerFontTransform: normal;
     --footerFontColor: #878787;
 
     /* FOOTER TITLES */
-    --footerTitleFontFamily: "DM Sans", sans-serif;
-    --footerTitleFontWeight: 600;
-    --footerTitleFontSize: 18px;
+    --footerTitleFontFamily: "Roboto", system-ui;
+    --footerTitleFontWeight: 500;
+    --footerTitleFontSize: 15px;
     --footerTitleFontTransform: normal;
-    --footerTitleFontColor: #000;
+    --footerTitleFontColor: #515154;
 
     /* PRODUCT LISTING */
-    --productFontFamily: "DM Sans", sans-serif;
-    --productFontWeight: 500;
+    --productFontFamily: "Roboto", system-ui;
+    --productFontWeight: 400;
     --productFontSize: 14px;
-    --productFontColor: #000;
+    --productFontColor: #1d1d1f;
 
     
-    --productPriceFontFamily: "DM Sans", sans-serif;
+    --productPriceFontFamily: "Roboto", system-ui;
     --productPriceFontWeight: 400;
     --productPriceFontSize: 14px;
-    --productPriceColor:#000;
+    --productPriceColor:#515154;
     
     --productPriceStrikeFontWeight: 300;
     --productPriceStrikeFontSize: 12px;
     --productPriceStrikeColor:#666;  
     
     --productButtonAddBackground: #fff;
-    --productButtonAddColor: #000;
+    --productButtonAddColor: #515154;
 
     /* BUTTONS */
     --buttonBorderRadius: 0px;
@@ -166,6 +166,7 @@ body,
     box-shadow:unset;
     border:0;
     padding:0;
+    -webkit-font-smoothing: antialiased;
 }
 
 .conteiner-principal .conteiner{
@@ -1813,6 +1814,7 @@ body #rodape .gateways-rodape{
     width: auto;
     height: auto;
     margin-left: 5px;
+    font-size: 7px;		
 }
 
 #theme_header-menu .menu.superior .nivel-dois{
