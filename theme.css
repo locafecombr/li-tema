@@ -243,7 +243,6 @@ body,
 
 .conteiner{max-width:1200px;}
 
-
 .btn-icon{
     background: transparent;
     border: 0;
@@ -268,6 +267,12 @@ body,
     background-repeat: no-repeat;
     background-color: black;
     background-image: url(https://ik.imagekit.io/locafe/tr:w-630,h-332,cm-pad_resize,fo-right,f-auto/Home_imagekit_trustvox_ZCokm1vYQt.png);
+}
+carousel-title[data-v-1c9fdd9a] {
+    display: none;
+}
+konfidency-storeReview-carousel[data-v-1f827244] {
+    padding-left: 8vw;
 }
 
 /* MENU PRINCIPAL*/
