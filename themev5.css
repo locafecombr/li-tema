@@ -263,10 +263,10 @@ body,
 
 /* REVIEWS KONFIDENCY */
 .konfidency-storeReviewCarousel {
-    padding: 2vw 2vw 2vw 15vw;
+    padding: 3vw 0vw 3vw 20vw;
     background-repeat: no-repeat;
     background-color: black;
-    background-image: url(https://ik.imagekit.io/locafe/tr:w-630,h-332,cm-pad_resize,fo-right,f-auto/Home_imagekit_trustvox_ZCokm1vYQt.png);
+    background-image: url(https://ik.imagekit.io/locafe/tr:w-500,h-350,cm-pad_resize,fo-right,f-auto/Home_imagekit_trustvox_ZCokm1vYQt.png);
 }
 .carousel-title[data-v-1c9fdd9a] {
     display: none;
