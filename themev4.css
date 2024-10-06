@@ -11,7 +11,7 @@
     --logoDesktop : 70px;
     --logoMobile : 40px;
 
-    --borderRadius: 30px;
+    --borderRadius: 5px;
 
     /* PRIMARY */
     --primaryColor: #1d1d1f;
@@ -2498,7 +2498,11 @@ html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parc
     .listagem .preco-produto.destaque-parcela strong.titulo{
         font-size:16px;
     }
-    .listagem .listagem-item .nome-produto{-webkit-line-clamp: 2;}
+    .listagem .listagem-item .nome-produto{
+        -webkit-line-clamp: 2;
+        overflow: visible;
+        display: flex;
+    }
 }
 .theme_aside #theme_search button.botao-busca{
     font-size: 12px;
@@ -2777,7 +2781,7 @@ html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parc
 
     .listagem .listagem-item .imagem-produto, .listagem .listagem-item .info-produto{
         float:unset;
-        width:100%;
+     /*   width:100%;*/
     }
 }
 
@@ -2961,7 +2965,7 @@ html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parc
     .menu.superior li.com-filho .nivel-dois > .com-filho > a{font-weight:600;}
 }
 
-#theme_header-stripe{text-align:center;padding:.25rem;}
+#theme_header-stripe{text-align:center;padding:.4rem;}
 
 #theme_filter-clean{
     background: var(--primaryColor);
