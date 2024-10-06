@@ -271,11 +271,13 @@ body,
 .carousel-title[data-v-1c9fdd9a] {
     display: none;
 }
-/* .konfidency-storeReview-carousel[data-v-1f827244] {
-    padding-left: 8vw;
-} */
-.konfidency-storeReview-carousel .text {
-    font-weight: 300;
+.konfidency-badge img[data-v-37ad2929] {
+    max-width: 4vw;
+    filter: grayscale(1);
+}
+
+.konfidency-storeReview-carousel .text[data-v-1f827244] {
+    font-weight: 300 !important;
     font-size: 14px;
 }
 
@@ -1399,7 +1401,8 @@ body #rodape .gateways-rodape{
     font-weight: var(--titleFontWeight);
     font-size: calc(var(--titleFontSize) * 0.7);
     height: auto;
-    box-sizing:border-box
+    box-sizing:border-box;
+    background-color: #c60211 ;
 }
 .pagina-produto .secao-principal > .produto > .row-fluid:first-child .acoes-produto[data-variacao-id=""][style="display: none;"]{display:none!important}
 .pagina-produto .secao-principal > .produto > .row-fluid:first-child .acoes-produto[style="display: block;"]:after,
@@ -1445,8 +1448,17 @@ body #rodape .gateways-rodape{
     fill:#fff;
 }
 
-/* .produto .conteiner-imagem>div{max-width:90%;} */
-.produto .principal{padding-left:10%;}
+.produto .principal{
+    padding: 10%;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    border: 1px solid #dcdde1;
+}
+.compre-junto__conteudo--grade[data-total="2"][data-columns="12"] .compre-junto__resumo {
+    width: 37.5% !important;
+    background-color: #f6f6f6;
+    border-radius: 15px !important;
+}
 
 .codigo-produto{
     display: flex;
@@ -3090,7 +3102,7 @@ input[type=number] {
     display: flex;
     align-items: center;
     text-align: center;
-    border: 1px solid #f4f4f4;
+    border: 1px solid #ddd;
     line-height: 44px!important;
     border-radius: var(--borderRadius)!important;
     width: auto!important;
