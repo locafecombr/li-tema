@@ -126,7 +126,7 @@ html{overflow-x:hidden;overflow-y:scroll}
 
 .borda-alpha .input-append,
 .input-append{
-    border:1px solid #f5f5f5!important;
+    border:1px solid #ddd!important;
     position:relative;
 }
 
@@ -263,7 +263,7 @@ body,
 
 /* REVIEWS KONFIDENCY */
 .konfidency-storeReviewCarousel {
-    padding: 3vw 0vw 3vw 20vw;
+    padding: 3vw 0vw 3vw 20vw !important;
     background-repeat: no-repeat;
     background-color: black;
     background-image: url(https://ik.imagekit.io/locafe/tr:w-500,h-350,cm-pad_resize,fo-right,f-auto/Home_imagekit_trustvox_ZCokm1vYQt.png);
@@ -714,11 +714,11 @@ textarea:focus{
 #theme_sideCart{
     position: fixed;
     top: 0;
-    right: -320px;
+    right: -350px;
     background: #fff;
     z-index: 999999999;
     height: 100vh;
-    width: 320px;
+    width: 350px;
     transition-delay: 0s;
     transition-duration: 0.4s;
     transition-property: right;
@@ -828,7 +828,7 @@ textarea:focus{
 
 .tabela-carrinho .produto-info a{
     color:var(--titleFontColor);
-    font-size:12px;
+    font-size:13px;
 }
 .tabela-carrinho .produto-info ul li{
     font-size:11px;
@@ -1496,7 +1496,7 @@ body #rodape .gateways-rodape{
 }
 .pagina-produto .cep .form-inline > .input-append{width:100%;display:flex;}
 .pagina-produto .cep .form-inline > .input-append > input{margin-right:15px;width:100%;}
-.pagina-produto .cep .form-inline > .input-append > button{padding: 0 2rem;font-weight:bold;}
+.pagina-produto .cep .form-inline > .input-append > button{padding: 0 2rem;font-weight:bold;margin: 0;}
 
 .theme-avisoEstoque{
     font-size: 12px;
@@ -3031,8 +3031,8 @@ html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parc
 
 .pagina-produto .produto .atributos > div:not(.atributo-cor) ul li a{
     font-size: 16px;
-    border: 1px solid #f2f2f2;
-    border-radius: 38px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     padding: 3px;
     margin-top: 5px;
 }
@@ -3049,7 +3049,7 @@ html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parc
 .pagina-produto .secao-principal > .produto > .row-fluid:first-child .acoes-produto[style="display: flex;"],
 .pagina-produto .secao-principal > .produto > .row-fluid:first-child .acoes-produto[style="display: block;"], .pagina-produto .secao-principal > .produto > .row-fluid:first-child .acoes-produto[data-variacao-id=""] {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 15px;
 }
 .acoes-produto [itemprop="offers"] {
@@ -3330,10 +3330,10 @@ html body.carrinho-checkout .identificacao #formularioLogin .login-data > .contr
     box-shadow: 0 0 3px rgb(0 0 0 / 50%);
 }
 .atributos .atributo-cor li.active > a:not(.indisponivel) {
-    box-shadow: 0px 0px 0px 1.5px rgb(0 0 0) !important;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0) !important;
 }
 .atributos .atributo-comum ul li.active > a:not(.indisponivel){
-    box-shadow: 0px 0px 0px 1.5px rgb(0 0 0) !important;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0) !important;
 }
 
 /* 2.9 */
