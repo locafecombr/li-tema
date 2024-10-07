@@ -413,7 +413,7 @@ textarea:focus{
     background: var(--primaryColor);
     color: #fff;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     height: 16px;
     width: 16px;
     padding: 0;
