@@ -2646,6 +2646,7 @@ html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parc
 .pagina-carrinho .tabela-carrinho tr:not([data-produto-id]) .btn{
     background-color:var(--primaryColor);
     color:#fff;
+    font-weight: 400;
 }
 .campos-pedido .divisor{background:transparent;}
 .campos-pedido label{
