@@ -290,7 +290,6 @@ theme.benefitsStripe.list = [];
 
 theme.build = [];
 theme.build.header = function(template){
-    theme.stripe.content = [`Opção de frete por <strong>R$ 9,90 para a cidade de São Paulo</strong>`, `Opção de frete por <strong>R$ 9,90 para a cidade de São Paulo</strong>`];
     $('#cabecalho').html(theme.templates.header);
     $('#theme_header-logo').append(theme.logo);
     $('#theme_header-menu').html(theme.headerMenu);
