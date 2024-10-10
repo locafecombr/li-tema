@@ -429,6 +429,46 @@ theme.build.search = function(template){
 };
 
 
+
+theme.build.account = function(template){
+    $('body').append(theme.templates.account);
+    let menu = $('<ul></ul>');
+    if(theme.isLogged){
+        menu.append('<li><a href="/conta/index">Meus dados</a></li>');
+        menu.append('<li><a href="/conta/pedido/listar">Meus pedidos</a></li>');
+        menu.append('<li><a href="/conta/logout">Sair</a></li>');
+    }else{
+        //menu.append('<li><a href="">Login</a></li>');
+        menu.append('<li><form id="apx_sideLogin" action="/conta/login" method="post"><label>E-mail<input id="id_email" maxlength="128" name="email" type="text"></label><label>Senha<input id="id_senha" maxlength="32" name="senha" type="password"></label><div><button type="submit" class="botao principal">Entrar</button><button id="recoverPassword" data-toggle="modal"> <i class="icon-lock cor-secundaria"></i> Esqueceu a senha? </button></div></form></li>');
+        menu.append('<li><a href="/conta/criar?next=conta_index&email=_">Cliente novo? Cadastre-se</a></li>');
+    }
+    menu.append('<li class="divider"></li>');
+    //menu.append('<li><a href="">Preciso de ajuda</a></li>');
+    //menu.append('<li><a href="">Fale com a gente</a></li>');
+    $('#theme_account').append(menu);
+    $('.account-trigger').click(function(){   
+        $('body').toggleClass('asideAccount-visible');         
+    });
+
+    $('#recoverPassword').click(function(){
+        let mail = $('#apx_sideLogin #id_email');
+        $.get('/conta/recuperar_senha?email=' + mail.val(), function(data){
+            let res = JSON.parse(data);
+            console.log(res.mensagem);
+            if(res.status == "erro"){
+                mail.focus()
+            }
+            alert(res.mensagem);
+        })
+    });
+
+
+
+}
+
+
+theme.functions = [];
+
 theme.functions.searchAutoComplete = function(){
   $(`#auto-complete`).autocomplete(`destroy`);
   $(`#auto-complete`).after(`<button type="button" class="clear_list"></button>`);
@@ -495,45 +535,6 @@ theme.functions.searchAutoComplete = function(){
   // });
   console.log(`searchAutoComplete`)
 };
-
-theme.build.account = function(template){
-    $('body').append(theme.templates.account);
-    let menu = $('<ul></ul>');
-    if(theme.isLogged){
-        menu.append('<li><a href="/conta/index">Meus dados</a></li>');
-        menu.append('<li><a href="/conta/pedido/listar">Meus pedidos</a></li>');
-        menu.append('<li><a href="/conta/logout">Sair</a></li>');
-    }else{
-        //menu.append('<li><a href="">Login</a></li>');
-        menu.append('<li><form id="apx_sideLogin" action="/conta/login" method="post"><label>E-mail<input id="id_email" maxlength="128" name="email" type="text"></label><label>Senha<input id="id_senha" maxlength="32" name="senha" type="password"></label><div><button type="submit" class="botao principal">Entrar</button><button id="recoverPassword" data-toggle="modal"> <i class="icon-lock cor-secundaria"></i> Esqueceu a senha? </button></div></form></li>');
-        menu.append('<li><a href="/conta/criar?next=conta_index&email=_">Cliente novo? Cadastre-se</a></li>');
-    }
-    menu.append('<li class="divider"></li>');
-    //menu.append('<li><a href="">Preciso de ajuda</a></li>');
-    //menu.append('<li><a href="">Fale com a gente</a></li>');
-    $('#theme_account').append(menu);
-    $('.account-trigger').click(function(){   
-        $('body').toggleClass('asideAccount-visible');         
-    });
-
-    $('#recoverPassword').click(function(){
-        let mail = $('#apx_sideLogin #id_email');
-        $.get('/conta/recuperar_senha?email=' + mail.val(), function(data){
-            let res = JSON.parse(data);
-            console.log(res.mensagem);
-            if(res.status == "erro"){
-                mail.focus()
-            }
-            alert(res.mensagem);
-        })
-    });
-
-
-
-}
-
-
-theme.functions = [];
 theme.functions.galeriaZoom = function(){
     $(window).load(function(){
         $.getScript( "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js", function( data, textStatus, jqxhr ) {
