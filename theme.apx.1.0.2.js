@@ -7,7 +7,7 @@ theme.settings.footer.importante = true;
 theme.settings.footer.security = true;
 
 theme.templates.footer = '<div class="row-flex justify-content-between">' + 
-(theme.settings.footer.institutional == true ? '<div class="col-auto"><h4>Sobre</h4><div id="theme_footer-content-institutional"></div><div id="theme_footer-content4"></div></div>' : '') +
+(theme.settings.footer.institutional == true ? '<div class="col-auto"><div id="theme_footer-content4"></div><h4>Sobre</h4><div id="theme_footer-content-institutional"></div></div>' : '') +
 `<div class="col"><div class="row-flex p-0 justify-content-between">` + 
 (theme.settings.footer.atendimento == true ?  '<div class="col-auto"><h4>Atendimento</h4><div id="theme_footer-content-atendimento"></div></div>' : '') +
 (theme.settings.footer.pages == true ? '<div class="col-auto"><h4>'+ theme.lang.footerTitle1 +'</h4><div id="theme_footer-content1"></div></div>' : '') +
