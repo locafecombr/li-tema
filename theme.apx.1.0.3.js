@@ -20,6 +20,7 @@ theme.templates.footer = '<div class="row-flex justify-content-between">' +
 '</div>';  
 
 theme.build.footer = function(template){
+    theme.newsletter = theme.newsletter.replace(`posicao-rodape`,``);
     $('#barraNewsletter, .pagamento-selos').remove();
     $('#rodape .institucional').html(theme.templates.footer);
     $('#theme_footer-content1').append(theme.footerPages);
