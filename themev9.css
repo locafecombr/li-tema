@@ -931,11 +931,11 @@ textarea:focus{
 }
 #rodape .institucional .row-flex #barraNewsletter .componente .texto-newsletter,
 #rodape .institucional .row-flex a{
-    font-size:var(--footerFontSize);
+   /* font-size:var(--footerFontSize);  */
     font-family:var(--footerFontFamily);
     font-weight:var(--footerFontWeight);
     font-style:var(--footerFontTransform);
-    color:var(--footerFontColor);
+   /* color:var(--footerFontColor); */
     display:inline-block;
     margin:0 0 15px 0;
 }
