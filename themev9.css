@@ -12,8 +12,8 @@
     --borderRadius: 5px;
 
     /* PRIMARY */
-    --primaryColor: #1d1d1f;
-    --secondaryColor: #666;
+    --primaryColor: #424A52;
+    --secondaryColor: #C60211;
     --buttonColor: #000;
     --bodyFontFamily: "Roboto", system-ui;
     --bodyFontWeight: 300;
@@ -3415,7 +3415,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
 
 /* 3.4 */
 .fundo-secundario, .fundo-secundario *, .fundo-secundario *:hover, .fundo-secundario:hover, .fundo-secundario.botao:hover{
-    color:var(--cor-secundaria);
+    color:var(--primaryColor);
 }
 .avise-me .avise-btn .botao{color:#fff!important}
 #barraNewsletter .componente div.newsletter-cadastro{display: flex;}
