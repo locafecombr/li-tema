@@ -42,7 +42,7 @@
 
     /* FOOTER TITLES */
     --footerTitleFontFamily: "Roboto", system-ui;
-    --footerTitleFontWeight: 500;
+    --footerTitleFontWeight: 600;
     --footerTitleFontSize: 15px;
     --footerTitleFontTransform: normal;
     --footerTitleFontColor: #515154;
@@ -928,6 +928,7 @@ textarea:focus{
     color:var(--footerTitleFontColor);
     margin-top:0;
     margin-bottom:30px;
+    letter-spacing: 0.05em
 }
 #rodape .institucional .row-flex #barraNewsletter .componente .texto-newsletter,
 #rodape .institucional .row-flex a{
