@@ -481,7 +481,6 @@ textarea:focus{
 
 /* PRODUCT LIST */
 .listagem-item .produto-sobrepor {
-    background: rgba(0,0,0,.05);
     border-radius: 15px;
 }
 
@@ -607,9 +606,9 @@ textarea:focus{
     transition-property: all;
     transition-timing-function: ease;
 }
-.listagem-item:hover .imagem-produto:before{
+/* .listagem-item:hover .imagem-produto:before{
     opacity:1;
-}
+} */
 .listagem-item .imagem-produto:before{
     content: "";
     background: rgba(0,0,0,.1);
