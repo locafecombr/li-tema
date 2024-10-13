@@ -36,7 +36,7 @@
     /* FOOTER */
     --footerFontFamily: "Roboto", system-ui;
     --footerFontWeight: 400;
-    --footerFontSize: 14px;
+    --footerFontSize: 12px;
     --footerFontTransform: normal;
     --footerFontColor: #878787;
 
@@ -932,13 +932,13 @@ textarea:focus{
 }
 #rodape .institucional .row-flex #barraNewsletter .componente .texto-newsletter,
 #rodape .institucional .row-flex a{
-   /* font-size:var(--footerFontSize);  */
+    font-size:var(--footerFontSize);
     font-family:var(--footerFontFamily);
     font-weight:var(--footerFontWeight);
     font-style:var(--footerFontTransform);
    /* color:var(--footerFontColor); */
     display:inline-block;
-    margin:0 0 15px 0;
+    margin:0 0 10px 0;
     text-decoration: none;
 }
 #rodape .institucional .row-flex ul > li:last-child a:last-child{margin-bottom:0;}
@@ -3545,7 +3545,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
 #theme_footer-content-atendimento h5{margin-bottom:.25rem;}
 #theme_footer-content-atendimento h5,
 #theme_footer-content-importante h5{
-  font-size: var(--menuFontSize);
+  font-size: var(--footerFontSize);
   line-height: initial;
 }
 #theme_footer-content-importante p{margin:0;line-height:initial}
