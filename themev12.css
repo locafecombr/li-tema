@@ -3752,13 +3752,13 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
   height: 36px;
   width: 46px;
 }
-.bandeiras-pagamento .visa{background-image:url('https://cdn.awsli.com.br/204/204167/arquivos/visa6.svg');}
-.bandeiras-pagamento .mastercard{background-image:url('https://cdn.awsli.com.br/204/204167/arquivos/master6.svg')}
+.bandeiras-pagamento .visa{background-image:url('https://cdn.awsli.com.br/204/204167/arquivos/todos_meios_de_pagamento.svg');}
+.bandeiras-pagamento .mastercard{background-image:url('');display:none}
 .bandeiras-pagamento .hipercard{background-image:url('');display:none}
-.bandeiras-pagamento .hiper{background-image:url('https://cdn.awsli.com.br/204/204167/arquivos/hiper.svg')}
-.bandeiras-pagamento .elo{background-image:url('https://cdn.awsli.com.br/204/204167/arquivos/elo.svg')}
-.bandeiras-pagamento .amex{background-image:url('https://cdn.awsli.com.br/204/204167/arquivos/american6.svg')}
-.bandeiras-pagamento .boleto{background-image:url('https://cdn.awsli.com.br/204/204167/arquivos/boleto.svg')}
+.bandeiras-pagamento .hiper{background-image:url('');display:none}
+.bandeiras-pagamento .elo{background-image:url('');display:none}
+.bandeiras-pagamento .amex{background-image:url('');display:none}
+.bandeiras-pagamento .boleto{background-image:url('');display:none}
 
 #theme_footer-content-institutional p img{
   float: left;
