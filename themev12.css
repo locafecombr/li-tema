@@ -3539,8 +3539,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
 }
 #theme_footer-content-importante > div:not(:last-child){
   border-bottom: 1px solid #ccc;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 #theme_footer-content-atendimento h5{margin-bottom:.25rem;}
 #theme_footer-content-atendimento h5,
