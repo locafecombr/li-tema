@@ -680,7 +680,7 @@ textarea:focus{
 #rodape > div:last-child .conteiner > div > div:last-child{padding-top:15px;}
 #rodape > div:last-child a{
     vertical-align: top;
-    opacity: 1 !important;
+    opacity: 0.4 !important;
     display: inline-block !important;
     visibility: visible !important;
     margin: 0 10px 0 0 !important;
@@ -970,6 +970,7 @@ textarea:focus{
     padding-top: 0!important;    
     justify-content: flex-end;
     text-align: right!important;
+    color: #000;
 }
 body #rodape .bandeiras-pagamento{margin-bottom:15px;}
 body #rodape .gateways-rodape{
