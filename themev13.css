@@ -692,6 +692,7 @@ textarea:focus{
 #rodape > div:last-child a > span{
     display:block;
     font-size:10px;
+    opacity: 0.4;
 }
 
 /* FLOATING CART */ 
@@ -961,6 +962,7 @@ textarea:focus{
     display: flex;
     align-items: center;
     padding:0 10px;
+    opacity: 0.5;
 }
 #rodape > div:last-child .row-fluid > div:first-child,
 #rodape > div:last-child .row-fluid > div:first-child *{text-align:left;}
