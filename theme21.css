@@ -309,8 +309,7 @@ body,
     width:fit-content;
     margin: 4vw auto 0 auto;
     position:relative;
-    color:var(--titleFontColor);
-    letter-spacing: 0.04em
+    color:var(--titleFontColor)
 }
 .titulo-categoria strong:before,
 .titulo-categoria strong:after,
