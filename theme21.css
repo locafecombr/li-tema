@@ -2246,7 +2246,7 @@ body #rodape .gateways-rodape{
     text-align: center;
     line-height: 30px;
   /*  top: 50%; */
-    top: -3%;
+    top: -2%;
     transform: translate(0, -50%);
     left: -30px;
     cursor: pointer;
@@ -3441,7 +3441,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
   overflow:visible
 }
 .listagem-linha.slick-slider .slick-arrow{
-  background: #f7f7f7);
+  background: #f7f7f7;
   height: 40px;
   width: 40px;
   display: flex !important;
@@ -3450,8 +3450,8 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
   border-radius: 50%;
 }
 .listagem-linha.slick-slider .slick-arrow svg{
-  height: 24px;
-  width: 24px;
+  height: 20px;
+  width: 20px;
 }
 .listagem-linha.slick-slider .slick-arrow.arrow-r{left:100%;right:auto}
 .listagem-linha.slick-slider .slick-arrow.arrow-l{right:100%;left:auto}
@@ -3508,8 +3508,8 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
   line-height:0
 }
 #theme_header-stripe .slick-arrow svg{
-  height:13px;
-  width:14px;
+  height:37px;
+  width:13px;
 }
 #theme_header-stripe .slick-arrow svg path{fill:#fff}
 #theme_header-stripe .arrow-r{right:1rem}
