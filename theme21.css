@@ -1480,7 +1480,7 @@ body #rodape .gateways-rodape{
     font-weight: var(--productPriceStrikeFontWeight);
     font-size: var(--productPriceStrikeFontSize) * 0.7;
     color: var(--productPriceStrikeColor);
-    padding: 0 0 15px 0;
+    padding: 15px 0 15px 0;
     margin-bottom: 20px;
     border-bottom: 1px solid #f8f8f8;
 }
