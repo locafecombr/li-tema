@@ -1298,7 +1298,7 @@ body #rodape .gateways-rodape{
     display: block;
     padding: 0 0 10px 0;
     width: 100%;
-    margin: 30px 0 15px 0;
+    margin: 0px 0 10px 0;
     position: relative;
     color: var(--titleFontColor);
     border-bottom: 1px solid #f8f8f8!important;
