@@ -3528,7 +3528,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
   border-radius: 3px;
   padding: .35rem 1rem;
   border:1px solid #f6f6f6;
-  letter-spacing: 0.1em;  
+  text-transform: uppercase; 
 }
 
 
