@@ -3597,7 +3597,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
     opacity:0;
     pointer-events: none;
     transition: .3s opacity ease-in-out;
-    background: #f8f8f8;
+    background: #eeeeee;
     box-shadow: 0px 15px 10px rgba(0,0,0,.15);
     padding-bottom: 3rem;
   }
@@ -3617,7 +3617,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
   .theme_aside.theme_search .theme_aside-header span{font-size: 0;}
   .theme_aside.theme_search #theme_search {
       padding: 0 1rem 1rem 1rem;
-      background: #f8f8f8;
+      background: #eeeeee;
       
       height: fit-content;
       
