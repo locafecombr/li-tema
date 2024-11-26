@@ -51,7 +51,7 @@ theme.settings.sliders.config.nextArrow   = '<span class="arrow-r"><svg version=
 theme.settings.productGallery = false;
 theme.settings.galeriaZoom = false;
 
-theme.settings.invertHeader = false;
+theme.settings.invertHeader = true;
 
 theme.settings.sliders.benefitsStripe = {
     dots: false,
