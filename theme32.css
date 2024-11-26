@@ -304,7 +304,7 @@ body,
     display:block;
     padding:0 2rem;
     width:fit-content;
-    margin: 4vw auto 0 auto;
+    margin: 3vw auto 0 auto;
     position:relative;
     color:var(--titleFontColor)
 }
