@@ -3555,7 +3555,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
 }
 #theme_footer-content-importante > div:not(:last-child){
   border-bottom: 1px solid #ccc;
-  margin-bottom: 0rem;
+  margin-bottom: 0.7rem;
 }
 #theme_footer-content-atendimento h5{margin-bottom:.25rem;}
 #theme_footer-content-atendimento h5,
