@@ -3124,6 +3124,7 @@ input[type=number] {
     border-radius: var(--borderRadius)!important;
     width: auto!important;
     padding: 0 10px;
+    background-color: #fff;
 }
 @media(max-width:990px){
     .acoes-produto .comprar{gap:15px}
