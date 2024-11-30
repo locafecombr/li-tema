@@ -3541,7 +3541,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
   font-size: calc(var(--footerFontSize)* 0.9)!important;
 }
 
-#theme_footer-content1 ul li:nth-child(n+6) {
+#theme_footer-content1 ul li:nth-child(n+8) {
   display: none;
 }
 
