@@ -1487,8 +1487,7 @@ $(document).ready(function(){
     $('.menu.superior > .nivel-um > li > a > strong:contains(Ocultar)').closest('li').prev('li').nextAll().remove();
 
     //funcao ocultar paginas no menu
-    //$('#theme_footer-content1 > ul > li > a:contains(Ocultar)').closest('li').prev('li').nextAll().remove();
-    $('#theme_footer-content1 > ul > li > a:contains(Fale)').closest('li').prev('li').nextAll().remove();
+    $('#theme_footer-content1 > ul > li > a:contains(Ocultar)').closest('li').prev('li').nextAll().remove();
     
 
     //theme.benefitsStripe
