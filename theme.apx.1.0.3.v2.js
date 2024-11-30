@@ -1,6 +1,6 @@
 
 theme.lang.footerTitle3 = "Pagamento";
-theme.settings.footer.institutional = false;
+theme.settings.footer.institutional = true;
 theme.settings.footer.categories = false;
 theme.settings.footer.atendimento = true;
 theme.settings.footer.importante = true;
