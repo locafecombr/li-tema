@@ -232,7 +232,7 @@ body,
     justify-content: center !important;
 }
 
-.conteiner-fluid{padding:7px 3vw;margin:0 auto; background-color: #ffffff66;}
+.conteiner-fluid{padding:7px 3vw;margin:0 auto; background-color: #ffffff66;border-radius: 10px;}
 .menu.superior{margin:0;}
 
 .flexslider{border:0;border-radius:0;}
