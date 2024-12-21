@@ -1301,7 +1301,6 @@ body #rodape .gateways-rodape{
     width: 100%;
     position: relative;
     color: var(--titleFontColor);
-    border-bottom: 1px solid #f8f8f8!important;
     line-height: initial;
 }
 .conteudo h1.titulo + p{
