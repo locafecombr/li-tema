@@ -3503,7 +3503,9 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
 }
 #theme_sideCart-content .scroll{box-sizing:border-box}
 
-#theme_header-stripe{}
+#theme_header-stripe{
+	z-index: 9;
+}
 #theme_header-stripe p{
   margin:0;
   line-height: initial;
