@@ -3433,6 +3433,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
 /* 3.4 */
 .fundo-secundario, .fundo-secundario *, .fundo-secundario *:hover, .fundo-secundario:hover, .fundo-secundario.botao:hover{
     color:var(--primaryColor);
+    filter: grayscale(100%);
 }
 .avise-me .avise-btn .botao{color:#fff!important;font-weight: 500;}
 #barraNewsletter .componente div.newsletter-cadastro{display: flex;}
