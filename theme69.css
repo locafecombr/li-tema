@@ -2522,7 +2522,7 @@ input:-webkit-autofill:active  {
 html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parcela .preco-parcela > strong{font-weight:600;}
 @media(min-width:990px){
     .pagina-produto .cep .form-inline > .input-append,
-    .pagina-produto .cep .form-inline > .input-append input{width:fit-content}
+    .pagina-produto .cep .form-inline > .input-append input{width:fit-content;background: #fbfbfb;}
 }
 @media(max-width:990px){
     .listagem .preco-produto.destaque-parcela strong.titulo{
@@ -3121,12 +3121,12 @@ input[type=number] {
     display: flex;
     align-items: center;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     line-height: 44px!important;
     border-radius: var(--borderRadius)!important;
     width: auto!important;
     padding: 0 10px;
-    background-color: #fff;
+    background-color: #fbfbfb;
 }
 @media(max-width:990px){
     .acoes-produto .comprar{gap:15px}
