@@ -1,4 +1,5 @@
 
+
 :root{
     /* INVERT HEADER */
     --invertHeaderBackground:#ffffff00;
@@ -174,7 +175,7 @@ body,
 
 .borda-alpha,
 .borda-alpha *,
-.listagem .listagem-linha li{background: none;border-color: rgba(0, 0, 0, 0.2);box-shadow: none;}
+.listagem .listagem-linha li{border:0!important;}
 
 .col {
     -webkit-flex-basis: 0;
@@ -3847,4 +3848,8 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
   .bandeiras-pagamento *,
   #theme_footer-security ul *{margin:0!important}
   #theme_footer-security img{max-height:100%;max-width:100%}
-}e
+}
+.caixa-dados h3 {
+    border-width: 0 0 1px !important;
+    border-style: solid !important;
+}
