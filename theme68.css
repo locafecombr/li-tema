@@ -338,6 +338,7 @@ select{
     padding: 0 .7rem;
     border-radius: var(--borderRadius)!important;
     outline:none;
+    background: #f1f1f1;
 }
 textarea{
     height:auto;
