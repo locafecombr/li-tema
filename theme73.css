@@ -29,7 +29,7 @@
     /* MENU */
     --menuFontFamily: "Roboto", system-ui;
     --menuFontWeight: 600;
-    --menuFontSize: 14px;
+    --menuFontSize: 16px;
     --menuFontTransform: normal;
     --menuFontColor: #1d1d1f;
 
@@ -210,7 +210,7 @@ body,
 .logo a{
     position:relative;
     height:auto;
-    max-width: 10em;
+    max-width: 8em;
     margin: 0;
 }
 
