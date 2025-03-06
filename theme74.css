@@ -3374,7 +3374,7 @@ html body.carrinho-checkout .identificacao #formularioLogin .login-data > .contr
 
 /* 3.0 */
 .theme_customBanners{
- /*   display: flex;  */
+    display: flex; 
     gap: 15px;
     margin: 5rem 0 1rem 0;
 }
