@@ -2865,6 +2865,7 @@ html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parc
     opacity:0;
     pointer-events:none;
     transition: all .3s;
+    min-width: 8vw;
 }
 #theme_header-menu .menu.superior > ul > li.com-filho:hover .nivel-dois{
     opacity:1;
