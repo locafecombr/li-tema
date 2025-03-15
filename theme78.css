@@ -51,13 +51,13 @@
     --productFontFamily: "Roboto", system-ui;
     --productFontWeight: 400;
     --productFontSize: 14px;
-    --productFontColor: #1d1d1f;
+    --productFontColor: #717179;
 
     
     --productPriceFontFamily: "Roboto", system-ui;
     --productPriceFontWeight: 600;
-    --productPriceFontSize: 14px;
-    --productPriceColor:#515154;
+    --productPriceFontSize: 15px;
+    --productPriceColor:#1d1d1f;
     
     --productPriceStrikeFontWeight: 300;
     --productPriceStrikeFontSize: 12px;
