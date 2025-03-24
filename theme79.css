@@ -2934,7 +2934,7 @@ html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parc
     #rodape *{box-sizing:border-box}
 }
 
-#theme_footer-content-institutional{}
+#theme_footer-content-institutional{text-align: left;}
 #theme_footer-content-institutional img,
 #theme_footer-content-institutional p{display:block;}
 #theme_footer-content-institutional img{max-height:30px;margin-bottom:20px;}
@@ -2968,7 +2968,7 @@ html[alpix-theme] body.pagina-produto .secao-principal > .produto .destaque-parc
 #corpo{overflow-x:hidden;}
 
 @media(max-width:990px){
-    #theme_footer-content-institutional img{max-height:30px;margin:15px auto;}
+    #theme_footer-content-institutional img{margin:15px auto;}
     #theme_footer-content-institutional-social{justify-content: center;}
     #theme_footer-content3 .selos ul:after {display:none;}
     #theme_footer-content3 .selos ul {
@@ -3785,6 +3785,7 @@ body:not(.pagina-inicial) .secao-banners .banner.cheio img{
   margin-right: 7px;
   margin-bottom: 0px;
   line-height: initial;
+  margin-top: 0;
 }
 
 .gateways-rodape{display: none;}
