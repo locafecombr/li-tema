@@ -2031,6 +2031,7 @@ body #rodape .gateways-rodape{
     .listagem ul[data-produtos-linha="2"]:not(.produtos-carrossel) > li, .listagem ul:not([data-produtos-linha]) > li{
         width: calc(100% /2);
         margin:0;
+	padding: 0 5px;
     }
 
     #theme_listing.sticky_this{position:relative;top:unset!important;}
